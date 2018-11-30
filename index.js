@@ -32,7 +32,7 @@ class IOHook extends EventEmitter {
     super();
     this.active = false;
     this.shortcuts = [];
-    this.eventProperty = 'keycode';
+    this.eventProperty = 'rawcode';
     this.activatedShortcuts = [];
 
     this.lastKeydownShift = false;
